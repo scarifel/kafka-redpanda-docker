@@ -6,5 +6,5 @@ Rapid deployment of local environment **Apache Kafka** and **Redpanda Console (U
 ### Quick Start
  
 ```shell
-docker run -d --network host --name redpanda-console -e KAFKA_BROKERS=localhost:9092 docker.redpanda.com/redpandadata/console:latest
+docker-compose up -d
 ```
